@@ -1,0 +1,36 @@
+<section class="page1wrapper">
+      <form name="myForm" class="page1form">
+      <p class="inputs">
+        <strong>First Name </strong>
+          <input class="inputbox" type="text" pattern="[A-Za-z]{3,12}" ng-model="user.username" name="uname"/>
+      </p>
+      <p class="inputs">
+        <strong>Last Name </strong>
+        <input class="inputbox" type="text" pattern="[A-Za-z]{3,12}" ng-model="user.lastname" name="lname"/>
+      </p>
+      <p class="inputs">
+        <strong>Email</strong>
+        <input class="inputbox"  type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" ng-model="user.email" /></p>
+      </p>   
+          <div class="phoneColumn">
+          <p class="inputs"><strong>Phone</strong>
+          <input type="tel" ng-model="user.phoneno1" pattern="[7-9]{1}[0-9]{3}"    class="box1"> - 
+          <input type="tel" ng-model="user.phoneno2" pattern="[0-9]{3}"  class="box2"> -
+          <input type="tel" ng-model="user.phoneno3" pattern="[0-9]{3}"
+           class="box3"></p>
+          </div>
+          <p class="inputs"><strong>Zip</strong>
+          <input class="zipCode" type="text" ng-model="user.zipcode" pattern="[0-9]{6}" name="zipCode"/></p>
+
+        <div class="termsAndConditions">  
+        <div class="Conditions">I agree to the <a href="#">Terms and Conditions</a> of<br> the Cognizant User Agreement, and that</span><br><strong>I am 18 years of age or older</strong>
+        </div>
+         <input type="checkbox" name="checkPolicy" ng-model="checkAgree" class="Conditions" />
+        </div>
+
+      <div class="Buttons"> 
+      <input type="submit"  value="Submit" ng-click='Submit()' class="Btn_Submit">
+      <input type="reset"   value="Cancel" ng-click='refresh()' class="Btn_Reset">
+      </div>
+      </form>
+</section> 

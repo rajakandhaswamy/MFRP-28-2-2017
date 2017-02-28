@@ -1,0 +1,20 @@
+.underline{
+	border: 6px;
+	border-color: #000;
+	float: right;
+}
+.page2form{
+	float: left;
+	width: 698px;
+	min-height: 1039px;
+}
+.inputbox{
+	float: right;
+}
+.inputs{
+	padding: 16px;
+
+}
+.clear{
+	clear: both;
+}

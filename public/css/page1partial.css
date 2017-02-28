@@ -1,0 +1,131 @@
+.wrapper{
+	font-family:"Arial";
+	background-color:#E2E2DC;
+	margin-left: 125px;
+	width: 700px;
+	margin-top: 150px;
+	height: 325px;
+}
+.firstName{
+	margin: 5px;
+	font-style: bold;	
+}
+.firstName input{
+	width: 250px;
+    margin-left: 70px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.lastName{
+	margin-top: -33px;
+	padding: 5px;
+}
+.lastName input{
+	width: 250px;
+	margin-left: 70px;
+	margin-top: 15px;
+	border-radius: 3px;
+}
+.eMail{
+	margin-top: -44px;
+	padding: 5px;
+}
+.eMail input{
+	width: 250px;
+    margin-left: 105px;
+    margin-top: 15px;
+    border-radius: 3px;
+
+}
+.phoneNo{
+	margin-top: -46px;
+	padding: 5px;
+}
+.phoneNo input{
+	width: 50px;
+    margin-left:-2px;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+.box1{
+	width: 50px;
+	border-radius: 3px;
+}
+.box2{
+	width: 50px;
+	border-radius: 3px; 
+}
+.box3{
+	width: 50px;
+	border-radius: 3px;
+}
+.zipCode{
+	margin: 5px;
+}
+.zipCode input{
+	width: 110px;
+	margin-left: 124px;
+	border-radius: 3px;
+}
+.termsAndConditions{
+	margin: 5px;
+	margin-left: 151px;
+	display: inline-block;
+}
+.Buttons{
+	margin-top: 10px;
+	margin-left: 150px;
+}
+.help-block {
+    float: left;
+    margin-top: -3px;
+    margin-bottom: -23px;
+    color:black;
+}
+.Submit{
+	border-radius: 10px;
+	width: 200px;
+	color: white;
+	border-color: white;
+}
+.Btn_Submit{
+	width: 100px;
+	border-radius: 5px;
+	color: white;
+	border-color: white;
+	background: #6db3f2; 
+	background: -moz-linear-gradient(top, #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%); 
+	background: -webkit-linear-gradient(top, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+	background: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 );
+}
+.Btn_Reset{
+	width: 100px;
+	border-radius: 5px;
+	color:#6ea1d1;
+	border-color: white;
+	background: #e2e2e2;
+	background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+	background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+	background: linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 );
+}
+.username.ng-valid{
+          background-color: lightgreen;
+      }
+      .username.ng-dirty.ng-invalid-required {
+          background-color: red;
+      }
+      .username.ng-dirty.ng-invalid-minlength {
+          background-color: yellow;
+      }
+ 
+      .email.ng-valid {
+          background-color: lightgreen;
+      }
+      .email.ng-dirty.ng-invalid-required {
+          background-color: red;
+      }
+      .email.ng-dirty.ng-invalid-email {
+          background-color: yellow;
+      }

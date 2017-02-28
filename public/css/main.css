@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	width: 1134px;
+	min-height: 1500px;
+}
+header{
+	width: 981px;
+	margin: 0 auto;
+	min-height:	64px;
+	
+	text-align: right;
+	
+	background: url(../assests/images/headerbackground.gif) no-repeat;
+	background-size: 100%;
+}
+.logo{
+	float: left;
+}
+.Registration{
+	font-family: Arial;
+	color: #fff;
+	margin: 0px; 
+	padding: 18px 24px; 
+}
+.fast_free{
+	color: #b6b6b6;
+}
+.content{ 
+	background-color: #f4f4f4;
+	width: 981px;
+	min-height: 1074px;
+	margin: 0 auto; 
+}
+/*<------------------------------------->*/
+.underline{
+	border: 6px;
+	border-color: #000;
+	float: right;
+}
+.page2form{
+	float: left;
+	width: 698px;
+	min-height: 1039px;
+}
+.inputbox{
+	border-radius: 3px;
+	float: right;
+}
+.inputs{
+	padding: 16px;
+
+}
+.clear{
+	clear: both;
+}
+/*<----------------------------------------------------->*/
+.page1wrapper{
+	font-family:"Arial";
+	background-color:#f4f4f4;
+	width: 674px;
+	min-height: 336px;
+}
+.page1form{
+	width: 413px;
+
+}
+.box1{
+	width: 50px;
+	margin-left: 132px;
+	border-radius: 3px;
+}
+.box2{
+	width: 50px;
+	border-radius: 3px; 
+}
+.box3{
+	width: 50px;
+	border-radius: 3px;
+}
+.zipCode{
+	width: 90px;
+	min-height: 23px;
+	border-radius: 3px;
+	margin-left: 155px;
+}
+.termsAndConditions{
+	font-size: 11px;
+	margin-bottom: 5px;
+	width: 287px;
+	float: right;
+}
+.Conditions{
+	float: right;
+	margin: 5px;
+}
+.Buttons{
+	float: right;
+	margin-right: 16px;
+}
+.help-block {
+    float: left;
+    margin-top: -3px;
+    margin-bottom: -23px;
+    color:black;
+}
+.Submit{
+	border-radius: 10px;
+	width: 200px;
+	color: white;
+	border-color: white;
+}
+.Btn_Submit{
+	width: 100px;
+	border-radius: 5px;
+	color: white;
+	border-color: white;
+	background: #6db3f2; 
+	background: -moz-linear-gradient(top, #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%); 
+	background: -webkit-linear-gradient(top, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+	background: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 );
+}
+.Btn_Reset{
+	width: 100px;
+	border-radius: 5px;
+	color:#6ea1d1;
+	border-color: white;
+	background: #e2e2e2;
+	background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+	background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+	background: linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 );
+}
